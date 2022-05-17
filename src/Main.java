@@ -12,6 +12,13 @@ public class Main {
         }
         empObj.displayDetails();
 
+
+        EmployeeWageComputationProblem empObj2 = new EmployeeWageComputationProblem(2);
+        for (int day = 0; day < empObj2.TOTAL_WORKING_DAYS ; day++) {
+            empObj2.wageCalculations();
+        }
+        empObj2.displayDetails();
+
         System.out.println("----------------------------------------------");
     }
 }
